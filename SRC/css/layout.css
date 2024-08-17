@@ -1,0 +1,197 @@
+body{
+	width: auto;
+	margin: auto;
+}
+div#topo{
+  
+	width:950px;
+	height:160px;
+	margin:0 auto;
+	margin-top:35px;
+}
+
+div#logo{
+	width:100px;
+	height:100px;
+	margin-top:30px;
+	float:left;
+}
+
+div#titulo{
+	width: 700px;
+	height:100px;
+	margin-top:30px;
+	float:right;
+}
+
+div#separador{
+	background:#0b0b0b;
+	width:950px;
+	height:45px;
+	margin:0 auto;
+}
+
+div#separador a{
+	color:#ffff;
+	font-family:"GOT";
+	font-size:10px;
+	text-decoration:none;
+	margin-top:15px;
+	display:block;
+	float:left;
+	margin-left:20px;
+}
+
+div#separador a:hover{
+	color:#f7f8f6;
+}
+	
+div#descricao{
+	width: 900px;
+	height:180px;
+	font-family:"Edu VIC WA NT Beginner", cursive;
+	font-size:25px;
+	margin:auto;
+	margin-top:110px;
+}
+
+div#conhecer{
+	width:950px;
+	height:85px;
+	margin:0 auto;
+	margin-top:90px;
+}
+
+div#conhecer h1{
+	text-align:right;
+	font-family:"GOT";
+	font-style:bold;
+	font-size:50px;
+	color:#000000;
+}
+
+div#container{
+	width:950px;
+	height:340px;
+	margin:0 auto;
+	margin-top:90px;
+	margin-bottom:250px;
+}
+
+div.chamada{
+	width:166px;
+	height:300px;
+	float:left;
+	margin-top:20px;
+	margin-left:20px;
+	text-align:center;
+	transition: transform .2s;
+}
+
+div.chamada h1{
+	color:black;
+	font-family:"GOT";
+	font-style:bold;
+	font-size:20px;
+}
+
+div.chamada p{
+	color:black;
+	font-family:"Edu VIC WA NT Beginner";
+	font-size:18px;
+}
+
+div.chamada:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+div.caixa_texto{
+	width: 950px;
+	height: 350px;
+	margin:0 auto;
+	margin-top:250px;
+	font-family:"Edu VIC WA NT Beginner";
+	font-size:20px;
+}
+
+
+.texto_r p{
+	text-align:right;
+	font-size:50px;
+}
+.texto_l p{
+	text-align:left;
+	font-size:50px;
+}
+
+.img_r{
+	width:495px;
+	height:330px;
+	float:right;
+	margin-left:50px;
+}
+.img_r:hover{
+    transition:all .4s ease-in-out;
+    box-shadow:15px 15px 20px rgba(5, 5, 5, 0.8), 0 6px 20px 0 rgba(5, 5, 5, 0.8);
+	transform:scale(1.02);
+}
+
+.img_l{
+	width:495px;
+	height:330px;
+	float:left;
+	margin-right:50px;
+}
+.img_l:hover{
+    transition:all .4s ease-in-out;
+    box-shadow:-15px 15px 20px  rgba(5, 5, 5, 0.8), 0 6px 20px 0 rgba(5, 5, 5, 0.8);
+	transform:scale(1.02);
+}
+
+.titulo_r{
+	text-align:leftt;
+	font-family:"GOT";
+	font-style:bold;
+	font-size:50px;
+	color:black;
+}
+.titulo_l{
+	text-align:leftt;
+	font-family:"GOT";
+	font-style:bold;
+	font-size:50px;
+	color:black;
+}
+
+div#fim{
+	background:black;
+	width:950px;
+	height:45px;
+	margin:0 auto;
+	margin-top:200px;
+}
+div#fim a{
+	color:#ffff;
+	font-family:"GOT";
+	font-size:12px;
+	text-decoration:none;
+	margin-top:15px;
+	display:block;
+	float:left;
+	margin-left:40px;
+}
+div#fim a:hover{
+	color:white;
+}
+div#fim p{
+	color:#ffff;
+	font-family:"GOT";
+	font-size:12px;
+	text-decoration:none;
+	margin-top:15px;
+	display:block;
+	float:RIGHT;
+	margin-RIGHT:40px;
+}
+
